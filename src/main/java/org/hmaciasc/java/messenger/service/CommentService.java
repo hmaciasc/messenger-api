@@ -4,15 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import javax.ws.rs.ForbiddenException;
 import javax.ws.rs.NotFoundException;
-import javax.ws.rs.WebApplicationException;
-import javax.ws.rs.core.Response;
-import javax.ws.rs.core.Response.Status;
 
 import org.hmaciasc.java.messenger.database.DatabaseClass;
 import org.hmaciasc.java.messenger.model.Comment;
-import org.hmaciasc.java.messenger.model.ErrorMessage;
 import org.hmaciasc.java.messenger.model.Message;
 
 public class CommentService {
